@@ -25,7 +25,7 @@ import {
     FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-import { MyPasswordInput } from "@/components/password-input-my";
+import { PasswordInput } from "@/components/password-input";
 
 const formSchema = z.object({
     email: z.string().email(),
@@ -78,7 +78,7 @@ const Login = () => {
                                     <FormItem>
                                         <FormLabel>Password:</FormLabel>
                                         <FormControl>
-                                            <MyPasswordInput {...field} />
+                                            <PasswordInput {...field} />
                                         </FormControl>
                                         <FormMessage />
                                     </FormItem>
