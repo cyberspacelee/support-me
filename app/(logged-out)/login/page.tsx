@@ -89,7 +89,7 @@ const Login = () => {
                     </Form>
                 </CardContent>
                 <CardFooter className='flex justify-between'>
-                    <small>Don't have an account?</small>
+                    <small>Don&apos;t have an account?</small>
                     <Button asChild variant="outline" size="sm">
                         <Link href="/sign-up">Sign up</Link>
                     </Button>
