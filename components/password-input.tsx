@@ -5,7 +5,6 @@ import { Input } from "@/components/ui/input";
 import { EyeIcon, EyeOffIcon } from "lucide-react";
 import { InputProps } from "@/components/ui/input";
 
-
 export function PasswordInput({ className, ...props }: InputProps) {
   const [showPassword, setShowPassword] = React.useState(false);
 
@@ -15,7 +14,7 @@ export function PasswordInput({ className, ...props }: InputProps) {
         type={showPassword ? "text" : "password"}
         {...props}
         className={cn("pr-10", className)}
-        placeholder="••••••••" 
+        placeholder="••••••••"
       />
       <span className="absolute right-2 top-1/2 transform -translate-y-1/2 cursor-pointer select-none ">
         {showPassword ? (
